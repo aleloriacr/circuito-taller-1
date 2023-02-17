@@ -24,3 +24,7 @@ def MotorCD(val):
 def ServoMotor(val):
     pos = pins.map(val,0,1023,0,180)
     pins.servo_write_pin(AnalogPin.P5, pos)
+    
+def ServoMotor1(val):
+    pos = pins.map(val,0,1023,0,180)
+    pins.servo_write_pin(AnalogPin.P5, pos)
